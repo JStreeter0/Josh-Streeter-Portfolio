@@ -4,113 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Streeter's Portfolio Showcase</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Streeter's Portfolio</title>
   </head>
-  <body>
-    <!--Header-->
-    <header>
-      <h1>Josh Streeter</h1>
-      <h2>Portfolio Showcase</h2>
-      <!--Navigation Bar-->
-      <nav class="section-links">
-        <ul>
-          <li><a href="About-Me">About Me</a></li>
-          <li><a href="My-Work">My Work</a></li>
-          <li><a href="Contact-Me">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <!--Section Titles-->
-      <aside>
-        <h2 id="About-Me">About Me</h2>
-        <h2 id="My-Work">My Work</h2>
-        <h2 id="Contact-Me">Contact Me</h2>
-      </aside>
-      <!--Main Content-->
-      <section class="Content">
-        <div>
-          <img
-            src="./assets/images/Josh-Streeter"
-            class="My-Face"
-            alt="Josh Streeter"
-          />
-          <!--About me descriptive-->
-          <p class="Summary">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, atque
-            sunt suscipit tempora, impedit corrupti repellat soluta ad dolorum
-            assumenda culpa! Perspiciatis fugiat nesciunt, tempore aut provident
-            quia incidunt expedita!
-          </p>
-          <p class="Summary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            fugiat ipsa voluptas veniam odio mollitia quod molestiae possimus
-            nam quidem aspernatur commodi laudantium quos magni reiciendis
-            incidunt, sapiente accusamus magnam!
-          </p>
-        </div>
-      </section>
-      <!--Project Picture links to class challenges-->
-      <section class="Main-Project">
-        <article id="Semantic">
-          <header>Semantic Refactor</header>
-          <img
-            src="./assets/images/Content"
-            id="First-Challenge"
-            alt="Semantic Refactor"
-          />
-        </article>
-
-        <article class="Projects-TBD">
-          <header>Project 1</header>
-          <img
-            src="./assets/images/In progress"
-            class="Challenges"
-            alt="Project 1"
-          />
-        </article>
-
-        <article class="Projects-TBD">
-          <header>Project 2</header>
-          <img
-            src="./assets/images/In progress"
-            class="Challenges"
-            alt="Project 2"
-          />
-        </article>
-
-        <article class="Projects-TBD">
-          <header>Project 3</header>
-          <img
-            src="./assets/images/In progress"
-            class="Challenges"
-            alt="Project 3"
-          />
-        </article>
-
-        <article class="Projects-TBD">
-          <header>Project 4</header>
-          <img
-            src="./assets/images/In progress"
-            class="Challenges"
-            alt="Project 4"
-          />
-        </article>
-      </section>
-
-      <footer>
-        <nav class="Contact links">
+ <body>
+  <!--Header-->
+    <main id="Main-Header">
+      <section class="container">
+        <nav>
+          <br>
           <ul>
-            <li>
-              <a href="">Phone</a>
-              <a href="">Email</a>
-              <a href="">Linked In</a>
-            </li>
+            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#My-Work">My Work</a></li>
+            <li><a href="#Contact-Me">Contact Me</a></li>
           </ul>
         </nav>
-      </footer>
+        <header class="header-text">
+          <h1>Josh Streeter</h1>
+          <p id="secondary-header"><strong>Portfolio Showcase</strong></p>
+        </header>
+      </section>
+
+     <!--About Me-->
+     <header id="About">
+      <section class="container">
+        <div class="row">
+          <aside class="col-1">
+            <figure>
+              <img src="/assets/images/Me.jpg"
+              class="My-Face"
+              alt="Picture of Me"
+             />
+            </figure>
+          </aside>
+          <section class="col-2">
+            <h2 id="About-Me">About Me</h2>
+            <br>
+            <p> Hello!</p>
+            <br>
+            <p>
+              My name is Josh Streeter an aspiring coding professional just getting started out. 
+              Below you can find a few of my first projects and attemps at HTML and CSS that I will continue
+              to evolve over time as my skills grow. Please feel free to reach out with any questions to any 
+              of my contacts below in the footer.
+            </p>
+          </section>
+        </div>
+      </section>
+      <!--Portfolio Project links-->
+     </header>
+     <header id="Portfolio">
+        <section class="container">
+            <h2 id="My-Work">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                  <a href="https://jstreeter0.github.io/Semantic-Markup-Refactor/">
+                    <img src="/assets/images/Content.jpg" alt="">
+                    <div class="layer">
+                        <h3>Semantic Refactor</h3>
+                    </div>
+                  </a>
+                </div>
+                </div>
+                <div class="work">
+                  <a href=" https://jstreeter0.github.io/prework-study-guide/">
+                    <img src="/assets/images/In progress.jpg" alt="Content Image">
+                    <div class="layer">
+                        <h3>Prework Study Guide</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="work">
+                  <a href="https://github.com/JStreeter0/Movie-review-2022">
+                    <img src="/assets/images/In progress.jpg" alt="Work In Progress Image">
+                    <div class="layer">
+                        <h3>Movie Mini Project Repo</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="work">
+                  <a href="https://github.com/JStreeter0/CSS-Snippet-Cheat-Sheet">
+                    <img src="/assets/images/In progress.jpg" alt="Work In Progress Image">
+                    <div class="layer">
+                        <h3>CSS Snippet Cheat Sheet Repo</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="work">
+                  <a href=""></a>
+                    <img src="/assets/images/In progress.jpg" alt="Work In Progress Image">
+                    <div class="layer">
+                        <h3>TBD</h3>
+                    </div>
+                </div>
+            </div>
+        </section>>
+     </header>
+
+     <!--Contact Me-->
+     <header id="contact">
+        <section class="container">
+            <div class="row">
+                <address id="contact-left">
+                    <h3 id="Contact-Me">Contact Me</h3>
+                    <p>JoshStreeter44@gmail.com</p>
+                    <p>253.335.9435</p>
+                    <div class="social icons">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </address>
+                <address id="contact-right">
+                    <form>
+                        <input type="text" name="Name"  placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </address>
+            </div>
+        </section>>
+      </header>
     </main>
-  </body>
+    <!--footer section-->
+    <footer></footer>
 </html>
