@@ -24,14 +24,48 @@ nav {
   flex-wrap: wrap;
 }
 
+.before {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 15px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.before:hover {
+  opacity: 1;
+}
+
+.before::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: whitesmoke;
+}
+
+.after::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.after:hover::before {
+  width:100%;
+}
+
+
 nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
-  border-bottom: 2px solid white;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -42,7 +76,7 @@ h1{
 }
 
 #secondary-header {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /*About Me Section*/
@@ -113,6 +147,11 @@ padding: 50px 0px;
   transition: all 1s ease-in-out;
 }
 
+.smaller {
+  flex: 0 0 45%;
+  margin-left: 40px;
+}
+
 .project:hover, .project:hover .caption {
   box-shadow: inset 0px 0px 20px whitesmoke;
 }
@@ -139,7 +178,7 @@ padding: 50px 0px;
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  transition: all 1.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .caption h3{
