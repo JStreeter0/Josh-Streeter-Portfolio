@@ -9,11 +9,11 @@ N/A
 
 <H2>Usage</H2>
 
-To utilize this site you are able to click on the navigation headers to take you to 3 sections within the Portfolio, those being my about me, my work, and a contact section. Within the "My Work" section the images will act as links that when clicked will take you to projects of mine that are completed and currently in progress. In the contact area the left side list my personal contact info and socials, while the right side allows you to enter your info by simply typing your name, email, and a message in the corresponding boxes.
+To utilize this site you are able to click on the navigation headers to take you to 3 sections within the Portfolio, those being my about me, my work, and a contact section. Within the "My Work" section the images will act as links that when clicked will take you to projects of mine that are completed and currently in progress. In the contact area, the left side list my personal contact info and socials, while the right side allows you to enter your info by simply typing your name, email, and a message in the corresponding boxes.
 
 <a href=>
 
-<!--screenshots here-->
+![image](https://user-images.githubusercontent.com/110742112/194212578-a8d3b80f-a7c1-4f5a-a158-05b5d399134f.png)
 
 <H2>Credits</H2>
 
