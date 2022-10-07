@@ -14,7 +14,7 @@ body{
 /*Header Section*/
 
 .container{
-  padding: 30px 16.5%;  
+  padding: 30px 8%;  
 }
 
 nav {
@@ -72,11 +72,11 @@ nav ul li a {
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 #secondary-header {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 /*About Me Section*/
@@ -107,14 +107,14 @@ border-radius: 15px;
 }
 
 #About-Me, #My-Work, #Contact-Me {
-font-size: 35px;
+font-size: 28px;
 font-weight: 600;
 color: white;
 margin-bottom: 30px;
 }
 
 p{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 hr { 
@@ -142,7 +142,7 @@ padding: 50px 0px;
 .project {
   border-radius: 10px;
   position: relative;
-  margin: 8px;
+  margin: 10px;
   overflow: hidden;
   transition: all 1s ease-in-out;
 }
@@ -182,11 +182,11 @@ padding: 50px 0px;
 }
 
 .caption h3{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 20px;
   background-color: #080808;
-  padding: 8px;
+  padding: 6px;
   border-radius: 8px;
 }
 
@@ -213,12 +213,12 @@ a{
 }
 
 form input, form textarea{
-  width: 125%;
+  width: 108%;
   border: 0;
   outline: none;
   background: #262626;
   padding: 8px;
-  margin: 10px 80px;
+  margin: 10px 60px;
   color: whitesmoke;
   font-size: 14px;
   border-radius: 6px;   
