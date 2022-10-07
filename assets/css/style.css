@@ -135,7 +135,7 @@ padding: 50px 0px;
 .project-list {
   display:flex;
   flex-wrap: wrap;
-  grid-gap: 40px;
+  /* grid-gap: 40px; */
   margin-top: 50px;
 }
 
